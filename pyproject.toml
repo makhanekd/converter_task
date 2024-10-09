@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "convert-image"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Makhanek <daniel.makhanek@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pillow = "^10.4.0"
+tqdm = "^4.66.5"
+loguru = "^0.7.2"
+result = "^0.17.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.9"
+pyright = "^1.1.383"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
